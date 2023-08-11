@@ -1,9 +1,9 @@
-let myName: string = "Nicolas";
+// let myName: string = "Nicolas";
 let meaningOfLife: number;
 let isLoading: boolean;
 let album: string | number;
 
-myName = "Jhon";
+// myName = "Jhon";
 meaningOfLife = 42;
 isLoading = true;
 album = 1984;

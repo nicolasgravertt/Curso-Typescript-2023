@@ -30,6 +30,17 @@ const exampleObj = {
     prop1: "Nicolas",
     prop2: true,
 };
+// exampleObj.prop2 = 42 ---> no se puede asignar un numero porque implicitamente typescript entiende prop2 como un booleano.
+// type Guitarrist = {
+//   name: string;
+//   active?: boolean; // ? --> dato opcional
+//   albums: (string | number)[];
+// };
+// interface Guitarrist {
+//   name?: string; // ? --> dato opcional
+//   active: boolean;
+//   albums: (string | number)[];
+// }
 let evh = {
     name: "Eddie",
     active: false,

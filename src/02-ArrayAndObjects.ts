@@ -54,11 +54,11 @@ const exampleObj = {
 //   albums: (string | number)[];
 // };
 
-interface Guitarrist {
-  name?: string; // ? --> dato opcional
-  active: boolean;
-  albums: (string | number)[];
-}
+// interface Guitarrist {
+//   name?: string; // ? --> dato opcional
+//   active: boolean;
+//   albums: (string | number)[];
+// }
 
 let evh: Guitarrist = {
   name: "Eddie",
